@@ -45,6 +45,6 @@ def finetune_get(ftid):
 
 
 
-#resp = file_upload('survey.jsonl')
-#finetune_model(resp['id'], 'survey_chatbot', 'davinci')
-finetune_list()
+resp = file_upload('plots.jsonl')
+finetune_model(resp['id'], 'plot_generator', 'davinci')
+#finetune_list()
